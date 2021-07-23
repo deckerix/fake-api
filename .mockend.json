@@ -15,7 +15,7 @@
 			"belongsTo": "Post"
 		}
 	},
-	"Users": {
+	"User": {
 		"name": {
 			"string": {}
 		},
