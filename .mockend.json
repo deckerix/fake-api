@@ -1,21 +1,29 @@
-{
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  },
-    "Users": {
-    "name" : { "string": {} },
-    "email": { "string": {} },
-  },
-  
-  
-  
+ {
+	"Post": {
+		"title": {
+			"string": {}
+		},
+		"comments": {
+			"hasMany": "Comment"
+		}
+	},
+	"Comment": {
+		"body": {
+			"string": {}
+		},
+		"post": {
+			"belongsTo": "Post"
+		}
+	},
+	"Users": {
+		"name": {
+			"string": {}
+		},
+		"email": {
+			"string": {}
+		}
+	}
+
+
+
 }
